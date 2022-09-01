@@ -6,7 +6,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 
 ```sql
 <!-- 123404 -->
-SELECT COUNT (*) FROM matches;
+SELECT COUNT (*) FROM matches WHERE season=2017;
 ```
 
 2) Find all the matches featuring Barcelona.
@@ -23,7 +23,7 @@ SELECT COUNT (*) FROM matches WHERE awayteam ='Barcelona' OR hometeam = 'Barcelo
 
 ```sql
 <!-- 3-->
-SELECT COUNT (*) FROM divisions WHERE country ='Scotland' ;
+SELECT name (*) FROM divisions WHERE country ='Scotland' ;
 
 
 
